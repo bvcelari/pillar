@@ -7,5 +7,5 @@ docker-containers:
         - "-e MY_ENV=warn"
         - "--log-driver=syslog"
         - "-p 2345:2345"
-        - "-v /opt/DockerHost/docker-formula/buildparity.sh:/opt/compileparity"
+        - "-v /opt/DockerHost/compileparity/buildparity.sh:/opt/compileparity"
         - "--rm"
